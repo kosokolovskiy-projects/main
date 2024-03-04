@@ -41,4 +41,22 @@ If you are interested how Tutor App looks like and works, you are welcome to vis
 
 If you are not interested in Jupyter Notebooks and want to get acquainted with my work you are welcome to visit [*Projects Website*](https://kosokolovskiy-projects.streamlit.app)
 
+### Bank Marketing
+
+### Predicting Emojis in Tweets
+
+The goal of the project is to predict emoji for a given piece of text - tweet.
+
+**What is interesting here:**
+
+1) Utilization of various deep learning models:
+- LSTM (Long Short-Term Memory)
+- Bidirectional LSTM
+- Conv1D + Bidirectional LSTM
+- LSTM with **Attention Mechanism**
+
+2) Adoption of general-purpose models from Hugging Face, with subsequent fine-tuning for the specific task at hand, using TensorFlow
+
+### Stocks Price Analysis
+
 
