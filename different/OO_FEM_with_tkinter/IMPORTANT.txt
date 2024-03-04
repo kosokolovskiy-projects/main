@@ -1,0 +1,5 @@
+To run the project you have two choices:
+	- with GUI - main version - please, run app.py
+	- simple version - please, run simple_version.py
+
+To change example mode, please, go to app.py and change "example" variable to "False"

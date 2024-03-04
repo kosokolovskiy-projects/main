@@ -1,0 +1,1 @@
+add_library(ex_25 class_25.cpp)
