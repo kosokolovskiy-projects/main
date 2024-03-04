@@ -1,7 +1,0 @@
-pip>=22.1.2
-numpy>=1.19.5
-matplotlib>=3.4.1
-wheel>=0.36.2
-tk>=0.1.0
-pandas>=1.4.0
-inflect>=6.0.0
