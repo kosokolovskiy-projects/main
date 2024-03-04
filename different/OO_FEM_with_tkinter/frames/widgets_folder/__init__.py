@@ -1,0 +1,11 @@
+from widgets_folder.main_screen import Main_Screen
+from widgets_folder.constraint_screen import Constraint_Screen
+from widgets_folder.displacement_screen import Displacement_Screen
+from widgets_folder.force_screen import Force_Screen
+from widgets_folder.number_elements import Number_Elements
+from widgets_folder.create_elements import Create_Elements
+from widgets_folder.check_data import Check_Data
+from widgets_folder.result_data import Result_Data
+from widgets_folder.ask_plots import Ask_Plots
+from widgets_folder.plots_maker import Plots_Maker
+
