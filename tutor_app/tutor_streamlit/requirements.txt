@@ -1,0 +1,11 @@
+pymongo
+#protobuf>=3.17.3,<=3.18
+protobuf
+mysql-connector-python
+streamlit-authenticator
+matplotlib
+numpy
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib

@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    admin:
+      email: user_1@gmail.com
+      name: Bob
+      password: password_1
+    maria_23_24:
+      email: user_2@gmail.com
+      name: Kate
+      password: password_2
+preauthorized:
+  emails:
+  - admin@gmail.com
