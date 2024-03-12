@@ -151,4 +151,39 @@ The Stock Price Analysis application is a comprehensive tool designed to perform
 The Stock Price Analysis application represents a robust tool for financial analysts and enthusiasts to dive deep into stock market analysis. Through a combination of data exploration, feature engineering, and advanced modeling techniques, it offers a detailed perspective on stock price behaviors and predictions, backed by a solid computational and theoretical framework. Integration with cloud services further enhances its practicality, making it a versatile solution for real-world financial analysis.
 
 
+### Bank Marketing Classification Task: Final Report
+
+#### Introduction
+The Bank Marketing project is centered on the analysis of direct marketing campaigns by a Portuguese banking institution. Utilizing data from phone calls made to clients, the objective is to predict whether a client will subscribe to a term deposit. This binary classification task involves processing, analyzing, and modeling complex datasets to uncover patterns that indicate a client's likelihood to subscribe.
+
+#### Key Features and Functions
+
+##### Data Preparation and Analysis
+- **Data Importation**: Initial steps involve importing essential Python libraries and the dataset, followed by preliminary data examination.
+- **Utility Functions Creation**: To streamline processes such as AWS data uploading, data visualization, statistical analysis, and machine learning modeling, a suite of utility functions was developed.
+- **Exploratory Data Analysis (EDA)**: Through EDA, insights into numerical and categorical variables were gleaned. This included the identification of outliers, skewed distributions, and the relationship between variables and the target outcome.
+
+##### Modeling and Optimization
+- **Baseline Modeling**: Initial models without feature engineering were deployed, including Logistic Regression, Random Forest, XGBoost, and SVC, to establish baseline performances.
+- **Feature Engineering**: Insights from EDA informed the engineering of features to enhance model predictions. Techniques included data transformation and categorization.
+- **Model Optimization**: Utilizing Optuna for hyperparameter tuning, particularly with the XGBoost classifier, to refine models for improved prediction precision.
+
+##### Challenges and Solutions
+
+- **Data Skewness and Outliers**: Certain numerical features exhibited skewness and outliers, potentially impacting model accuracy.
+  
+  **Solution**: Data transformation techniques, such as logarithmic scaling, and the removal of extreme outliers, were applied.
+  
+- **Feature Selection for Categorical Variables**: The presence of numerous categorical variables required careful selection to ensure model relevance.
+
+  **Solution**: Chi-squared tests were conducted to evaluate the independence of categorical features, informing their inclusion or exclusion in the model.
+  
+- **Hyperparameter Tuning**: Finding the optimal set of hyperparameters for models, especially for complex ones like XGBoost, presented a challenge.
+
+  **Solution**: Optuna was employed for systematic and efficient hyperparameter optimization, significantly enhancing model performance.
+
+#### Conclusion
+The Bank Marketing Classification Task demonstrates the power of a structured data science approach in tackling predictive modeling challenges. Through comprehensive data analysis, strategic feature engineering, and sophisticated model optimization techniques, the project achieved its goal of predicting client subscription outcomes effectively. The methodologies and insights derived from this project can serve as a valuable reference for similar marketing analytics endeavors in the banking sector and beyond.
+
+
 
