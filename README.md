@@ -46,7 +46,7 @@ If you are interested how Tutor App looks like and works, you are welcome to vis
 
 ## Video Summarizer
 
-The app is embedded into my *Streamlit* App hosted on *EC2* instance AWS that is available by the [***Summarizer App***](http://3.79.153.33:8501/Summarizer).
+The app is embedded into my *Streamlit* App hosted on *EC2* instance AWS that is available by the [***Summarizer App***](http://3.67.10.222:8501/Summarizer).
 
 #### Overview
 
