@@ -6,6 +6,7 @@
   - bank_marketing
   - predicting_emojis_in_tweets
   - stocks_price_analysis
+  - rec
 - tutor_app
   - files
   - tutor_streamlit
@@ -18,7 +19,8 @@
     - summarazier.py
     - validation_youtube_video.py
   - project_4_interface.py
- 
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Tutor App: 
 
@@ -43,6 +45,8 @@ If you are interested how Tutor App looks like and works, you are welcome to vis
 - When dealing with images, it was necessary to store them on a remote server -> an S3 bucket was chosen. For each assignment involving images, a request is made to the bucket, and the image is downloaded.
 
 ***IMPORTANT***: In this application, all confidential information, including links, access keys, logins, passwords, and student information, has been removed or anonymized.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Video Summarizer
 
@@ -95,10 +99,13 @@ Several challenges were encountered during the project, including handling large
 
 This Streamlit application provides a comprehensive solution for YouTube video processing, offering users an easy way to extract transcripts and generate summaries of video content. By leveraging cutting-edge technologies and APIs, the project successfully meets its objectives, demonstrating a practical application of video content analysis and summarization.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Jupyter Notebooks
 
 If you are not interested in Jupyter Notebooks and want to get acquainted with my work you are welcome to visit [*Projects Website*](https://kosokolovskiy-projects.streamlit.app)
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Bank Marketing
 
@@ -115,6 +122,8 @@ The goal of the project is to predict emoji for a given piece of text - tweet.
 - LSTM with **Attention Mechanism**
 
 2) Adoption of general-purpose models from Hugging Face, with subsequent fine-tuning for the specific task at hand, using TensorFlow
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Stock Price Analysis
 
@@ -150,6 +159,7 @@ The Stock Price Analysis application is a comprehensive tool designed to perform
 
 The Stock Price Analysis application represents a robust tool for financial analysts and enthusiasts to dive deep into stock market analysis. Through a combination of data exploration, feature engineering, and advanced modeling techniques, it offers a detailed perspective on stock price behaviors and predictions, backed by a solid computational and theoretical framework. Integration with cloud services further enhances its practicality, making it a versatile solution for real-world financial analysis.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Bank Marketing Classification Task: Final Report
 
@@ -185,5 +195,40 @@ The Bank Marketing project is centered on the analysis of direct marketing campa
 #### Conclusion
 The Bank Marketing Classification Task demonstrates the power of a structured data science approach in tackling predictive modeling challenges. Through comprehensive data analysis, strategic feature engineering, and sophisticated model optimization techniques, the project achieved its goal of predicting client subscription outcomes effectively. The methodologies and insights derived from this project can serve as a valuable reference for similar marketing analytics endeavors in the banking sector and beyond.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Recommendation Model: Pandas Version
 
+#### Introduction
+
+The project develops a recommendation model utilizing Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn libraries, focusing on collaborative filtering principles to recommend movies based on user ratings. The model aims to enhance user experience by suggesting films similar to those they have previously enjoyed.
+
+#### Key Features and Functions
+
+##### Data Preparation and Analysis
+
+- **Exploratory Data Analysis (EDA)**: The initial phase involved understanding the dataset's structure, contents, and distributions, identifying patterns, anomalies, or interesting correlations between variables such as user ratings and movie genres.
+
+- **Data Reading and Cleaning:** Data is sourced either locally from a designated folder or fetched from an S3 Bucket, followed by comprehensive cleaning and preprocessing.
+Useful Information Extraction and Dataframe Merging: Key insights, including the number of unique movies, users, tags, genres, and ratings, were extracted. This included merging various datasets to form a consolidated view of the data.
+Modeling and Optimization
+
+- **Recommendation Model Creation:** A collaborative filtering model is developed, focusing on item similarities based on user rating patterns. It calculates similarities between movies using the dot product of their rating vectors in a sparse matrix.
+
+- **Similar Movies Function:** Implements a function to find movies similar to a given movie based on user ratings, enhancing personalized recommendations.
+
+- **Movies for User Function:** Introduces a "90th Percentile Strategy" for recommending a diverse array of movies to users based on their top-rated movies.
+
+#### Challenges and Solutions
+
+- **Data Skewness and Outliers:** Identified extreme rating behaviors and high-frequency rating activities that could skew recommendations.
+
+**Solution**: Implemented methods to exclude outliers and refine data quality, such as filtering users based on their rating patterns and frequency.
+  
+- **Feature Selection for Categorical Variables**: Addressed the challenge of integrating categorical variables like genres into the recommendation system.
+
+**Solution**: Utilized genre-based analysis and user preferences mapping to enhance the recommendation model's accuracy and personalization.
+
+#### Conclusion
+
+The project successfully demonstrates the development of a movie recommendation system using Pandas and collaborative filtering. Through meticulous data preparation, analysis, and model optimization, the system can offer personalized movie suggestions, thereby improving user engagement and satisfaction. Future improvements could include incorporating more sophisticated algorithms and addressing the nuances of user behavior and data quality for even more refined recommendations.
