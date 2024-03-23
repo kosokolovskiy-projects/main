@@ -6,7 +6,7 @@
   - bank_marketing
   - predicting_emojis_in_tweets
   - stocks_price_analysis
-  - rec
+  - recommendations
 - tutor_app
   - files
   - tutor_streamlit
