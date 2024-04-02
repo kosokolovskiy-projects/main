@@ -7,6 +7,7 @@
   - predicting_emojis_in_tweets
   - stocks_price_analysis
   - recommendations
+- recommendations
 - tutor_app
   - files
   - tutor_streamlit
@@ -98,6 +99,55 @@ Several challenges were encountered during the project, including handling large
 #### Conclusion
 
 This Streamlit application provides a comprehensive solution for YouTube video processing, offering users an easy way to extract transcripts and generate summaries of video content. By leveraging cutting-edge technologies and APIs, the project successfully meets its objectives, demonstrating a practical application of video content analysis and summarization.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+## MovieLens Recommendation System Documentation
+
+### Overview
+
+This document provides a comprehensive overview of a recommendation system developed to suggest movies to users based on their preferences and interactions. The application leverages advanced data processing and machine learning techniques, implemented on the Databricks platform, to provide personalized movie recommendations.
+
+### Architecture
+
+The system is built upon a multi-layered data architecture consisting of Bronze, Silver, and Gold tables, facilitating data ingestion, transformation, and analysis stages, respectively. It employs Delta Lake for robust data management and Spark for distributed data processing.
+
+#### Data Ingestion and Storage (Bronze Tables)
+
+- **Ratings:** Stores raw user ratings data, capturing user-movie interactions over time.
+- **Movies:** Catalogs movie metadata, including titles and genres.
+
+#### Data Processing and Aggregation (Silver Tables)
+
+- **User Aggregations:** Calculates average ratings and the total number of ratings per user.
+- **Movie Aggregations:** Provides insights into overall movie popularity through average ratings and rating counts.
+- **User-Movie Interactions:** Consolidates user ratings with movie titles for detailed analysis.
+
+#### Personalized Recommendation Algorithm
+
+Utilizing the Alternating Least Squares (ALS) algorithm for Collaborative Filtering, the system predicts user preferences for movies they haven't interacted with. The ALS model optimizes latent factors for users and movies, enabling the identification of similar movies based on cosine similarity.
+
+### Implementation
+
+#### Widgets for User Interaction
+
+- Streamlit widgets facilitate user input, allowing selection of specific movies for which recommendations are sought.
+
+### Data Caching
+
+- Strategic caching of frequently accessed tables enhances performance by reducing read operations from disk.
+
+#### Recommendation Generation
+
+- The application identifies similar movies to a user-selected title, ranking them based on similarity scores. This list is then presented to the user as recommendations.
+
+### Usage
+
+The application interface, built with Streamlit, guides users through the process of selecting a movie and receiving personalized recommendations. It provides a seamless experience, from data input to visualization of suggested movies.
+
+### Conclusion
+
+The MovieLens Recommendation System represents a sophisticated application of machine learning and data engineering principles to provide personalized content recommendations. By leveraging the power of Databricks, Delta Lake, and Spark, it offers a scalable, efficient, and user-friendly solution for movie enthusiasts.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
