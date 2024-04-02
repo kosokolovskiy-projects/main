@@ -1,6 +1,6 @@
 # Table of Contents
 
-Content: 
+## Content: 
 
    - Different
    - [Jupyter Notebooks](#jupyter-notebooks)
@@ -11,29 +11,6 @@ Content:
    - [Recommendations](#recommendations)
    - [Tutor App](#tutor-app)
    - [Video Summarizer](#video-summarizer)
-
-
-1. [Tutor App](#tutor-app-1)
-   - [Interesting Aspects](#interesting-aspects)
-2. [Video Summarizer](#video-summarizer-1)
-   - [Overview](#overview)
-   - [Objectives](#objectives)
-   - [Key Features](#key-features)
-   - [Implementation](#implementation)
-   - [Challenges and Solutions](#challenges-and-solutions)
-   - [Conclusion](#conclusion)
-3. [MovieLens Recommendation System Documentation](#movielens-recommendation-system-documentation)
-   - [Overview](#overview-1)
-   - [Architecture](#architecture)
-   - [Implementation](#implementation-1)
-   - [Usage](#usage)
-   - [Conclusion](#conclusion-1)
-4. [Jupyter Notebooks](#jupyter-notebooks-1)
-   - [Bank Marketing](#bank-marketing-1)
-   - [Predicting Emojis in Tweets](#predicting-emojis-in-tweets-1)
-   - [Stock Price Analysis](#stock-price-analysis)
-   - [Bank Marketing Classification Task: Final Report](#bank-marketing-classification-task-final-report)
-   - [Recommendation Model: Pandas Version](#recommendation-model-pandas-version)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
