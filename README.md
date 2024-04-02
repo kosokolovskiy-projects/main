@@ -1,25 +1,38 @@
-# Main:
-- different
-  - c_plus_plus
-  - OO_FEM_with_tkinter
-- jupyter_notebooks
-  - bank_marketing
-  - predicting_emojis_in_tweets
-  - stocks_price_analysis
-  - recommendations
-- recommendations
-- tutor_app
-  - files
-  - tutor_streamlit
-- video_summarizer
-  - utils
-    - aws
-      - cdk_
-      - aws_funcs.py
-    - file_proccessor.py
-    - summarazier.py
-    - validation_youtube_video.py
-  - project_4_interface.py
+# Table of Contents
+
+1. [Main](#main)
+   - [Different](#different)
+     - [C Plus Plus](#c-plus-plus)
+     - [OO FEM with Tkinter](#oo-fem-with-tkinter)
+   - [Jupyter Notebooks](#jupyter-notebooks)
+     - [Bank Marketing](#bank-marketing)
+     - [Predicting Emojis in Tweets](#predicting-emojis-in-tweets)
+     - [Stocks Price Analysis](#stocks-price-analysis)
+     - [Recommendations](#recommendations)
+   - [Recommendations](#recommendations-1)
+   - [Tutor App](#tutor-app)
+   - [Video Summarizer](#video-summarizer)
+2. [Tutor App](#tutor-app-1)
+   - [Interesting Aspects](#interesting-aspects)
+3. [Video Summarizer](#video-summarizer-1)
+   - [Overview](#overview)
+   - [Objectives](#objectives)
+   - [Key Features](#key-features)
+   - [Implementation](#implementation)
+   - [Challenges and Solutions](#challenges-and-solutions)
+   - [Conclusion](#conclusion)
+4. [MovieLens Recommendation System Documentation](#movielens-recommendation-system-documentation)
+   - [Overview](#overview-1)
+   - [Architecture](#architecture)
+   - [Implementation](#implementation-1)
+   - [Usage](#usage)
+   - [Conclusion](#conclusion-1)
+5. [Jupyter Notebooks](#jupyter-notebooks-1)
+   - [Bank Marketing](#bank-marketing-1)
+   - [Predicting Emojis in Tweets](#predicting-emojis-in-tweets-1)
+   - [Stock Price Analysis](#stock-price-analysis)
+   - [Bank Marketing Classification Task: Final Report](#bank-marketing-classification-task-final-report)
+   - [Recommendation Model: Pandas Version](#recommendation-model-pandas-version)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
