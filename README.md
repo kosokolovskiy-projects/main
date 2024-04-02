@@ -103,17 +103,6 @@ This document provides a comprehensive overview of a recommendation system devel
 
 The system is built upon a multi-layered data architecture consisting of Bronze, Silver, and Gold tables, facilitating data ingestion, transformation, and analysis stages, respectively. It employs Delta Lake for robust data management and Spark for distributed data processing.
 
-#### Data Ingestion and Storage (Bronze Tables)
-
-- **Ratings:** Stores raw user ratings data, capturing user-movie interactions over time.
-- **Movies:** Catalogs movie metadata, including titles and genres.
-
-#### Data Processing and Aggregation (Silver Tables)
-
-- **User Aggregations:** Calculates average ratings and the total number of ratings per user.
-- **Movie Aggregations:** Provides insights into overall movie popularity through average ratings and rating counts.
-- **User-Movie Interactions:** Consolidates user ratings with movie titles for detailed analysis.
-
 #### Personalized Recommendation Algorithm
 
 Utilizing the Alternating Least Squares (ALS) algorithm for Collaborative Filtering, the system predicts user preferences for movies they haven't interacted with. The ALS model optimizes latent factors for users and movies, enabling the identification of similar movies based on cosine similarity.
